@@ -39,7 +39,7 @@ prt_in,28,73,4	script	Wise Old Woman#eAcustom	78,{
 		set .@part, .@indices[ select(.@menu$) ];
 		if(!getequipisequiped(.@part)) {
 			mes "[Wise Old Woman]";
-			mes "Young one... Your not wearing anything there that I can remove cards from.";
+			mes "Young one... You're not wearing anything there that I can remove cards from.";
 			close;
 		}
 		if(getequipcardcnt(.@part) == 0) {
